@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Assignment: Color Toggle</title>
+</head>
+
+<body>
+<div class="togglemenu">
+  <img src="hamburger_menu.png" height="100px" class="menubtn" onclick="myFunction()">
+  <ul id="mymenu" class="menucontent">
+    <li><a href="#" id="home" onclick="changeColorGrey()">Home (1)</a></li>
+    <li><a href="#" id="red" onclick="changeColorRed()">Red (2)</a></li>
+    <li><a href="#" id="orange" onclick="changeColorOrange()">Orange (3)</a></li>
+    <li><a href="#" id="purple" onclick="changeColorPurple()">Purple (4)</a></li>
+    <li><a href="#" id="green" onclick="changeColorGreen()">Green (5)</a></li>
+  </ul>
+</div>
+<p>If you want to change the background color click on the menu or press 1-5.</p>
+<p>Current backgroundcolor:</p>
+<p id="curentcolor">Grey</p>
+<script src="script.js"></script>
+</body>
+</html>
